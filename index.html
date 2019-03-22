@@ -9,10 +9,10 @@
     </head>
 
     <body>
-      <ol>
+      <ul>
         <li>Home</li>
         <li><a href="example_page.html">Example Page</a></li>
-      </ol>
+      </ul>
 
       <h1>Lorem Ipsum</h1>
 
@@ -103,7 +103,7 @@
 
       <h3 id="2.b">b) another subsection</h3>
 
-      Entitiy References:
+      The following entitiy references are used in <abbr title="Hypertext Markup Language">HTML</abbr>:
       <ul>
         <li>&lt; (&amp;lt;)</li>
         <li>&gt; (&amp;gt;)</li>
@@ -130,24 +130,54 @@
         Praesent quis suscipit mi, eget faucibus libero.
       </p>
 
+      <p>
+        Here are some examples of superscript and subscript.
+        The 4<sup>th</sup> of July is a National Holiday.
+        Water's chemical formula is H<sub>2</sub>O.
+        3<sup>2</sup> = 9.
+      </p>
+
+      The following is a simple Python program, where <var>i</var> represents the loop counter:
+<pre><code>for i in range(5):
+    print(i**2)
+</code></pre>
+
+      The output of the program would be the following (which the user could stop by hitting <kbd>Ctrl+C</kbd>):
+<pre><samp>1
+4
+9
+16
+25
+</samp></pre>      
+
       <h3 id="2.c">c) a final subsection</h3>
 
-      <ol>
-          <li><em>emphasis</em></li>
-          <li><strong>strong</strong></li>
-      </ol>
+      <dl>
+        <dt>Emphasis</dt>
+        <dd><em>Emphasis</em> is added with the &lt;em&gt; tag.</dd>
+        <dt>Strong</dt>
+        <dd><strong>Important words</strong> are marked by the &lt;strong&gt; tag.</dd>
+      </dl>
 
       <p>
         In auctor enim at gravida scelerisque.
         Phasellus non lectus a sem gravida placerat et sed mauris.
         Fusce id venenatis orci.
-        Donec iaculis dignissim est, vel iaculis est posuere vitae.
-        Duis sollicitudin sapien venenatis fermentum consequat.
-        Praesent non mi non ante tincidunt eleifend sed id purus.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam suscipit urna eu lorem aliquam, ut consequat tellus imperdiet.
+        The following is a blockquote:
+        <blockquote>
+          Donec iaculis dignissim est, vel iaculis est posuere vitae.
+          Duis sollicitudin sapien venenatis fermentum consequat.
+          Praesent non mi non ante tincidunt eleifend sed id purus.
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam suscipit urna eu lorem aliquam, ut consequat tellus imperdiet.
+        </blockquote>
         Nullam faucibus efficitur neque ac condimentum.
+        An <q>inline quotation</q> looks like this.
         Nulla egestas, risus ut gravida commodo, purus lectus interdum nibh, ac dignissim eros purus sed dui.
       </p>
+
+      <address>
+        Page written by <a href="mailto:harrison@vantil.com">Harrison Van Til</a>, <time datetime="2019-03-22">March 22, 2019</time>.
+      </address>
 
     </body>
   </html>
