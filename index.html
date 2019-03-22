@@ -9,13 +9,31 @@
     </head>
 
     <body>
+      <ol>
+        <li>Home</li>
+        <li><a href="example_page.html">Example Page</a></li>
+      </ol>
+
       <h1>Lorem Ipsum</h1>
 
       <!-- This is a comment! -->
+      <h2>Contents</h2>
+
+      <ol>
+        <li><a href="index.html#1">First Section</a></li>
+        <li><a href="index.html#2">Second Section</a></li>
+        <ol>
+          <li><a href="index.html#2.a">a subsection</a></li>
+          <li><a href="index.html#2.b">another subsection</a></li>
+          <li><a href="index.html#2.c">a final subsection</a></li>
+        </ol>
+      </ol>
+
+      <h2 id="1">1. First Section</h2>
 
       <p>
-        Lorem ipsum <em>emphasis</em>, consectetur adipiscing elit. In ac hendrerit ligula.
-        Ut <strong>strong</strong> eleifend.
+        Lorem ipsum, consectetur adipiscing elit. In ac hendrerit ligula.
+        Ut eleifend.
         Vivamus convallis nisi nulla.
         Suspendisse viverra justo vitae erat vehicula pellentesque.
         Mauris ac ultricies tortor, ut ornare est.
@@ -34,9 +52,31 @@
       </p>
 
       <p>
+        Sed vulputate ullamcorper ipsum, et ultrices mauris vulputate id.
+        Nulla facilisi.
+        Duis sed nisi egestas lectus lacinia sollicitudin ut a ligula.
+        Duis consequat scelerisque lorem, sed mollis nisl aliquam eu.
+        Pellentesque mollis consequat tellus, ut fermentum velit elementum varius.
+        Curabitur sit amet lectus a mi ornare bibendum.
+        Etiam augue velit, pretium quis egestas id, congue at purus.
+        Curabitur placerat vestibulum aliquam.
+        Proin tempus, libero dignissim convallis rhoncus, ante urna faucibus magna, in rhoncus lorem odio quis leo.
+        Phasellus euismod laoreet congue.
+        Nulla id felis at ligula mattis accumsan ac nec nibh.
+        Cras maximus eget velit eget semper.
+        Integer at nibh eu mauris iaculis porta et et purus.
+        Ut augue sem, placerat ac ornare vel, convallis at erat.
+        Nulla scelerisque vitae lorem ac pretium.
+      </p>
+
+      <p>
         <input type="text">
         <input type="text" disabled>
       </p>
+
+      <h2 id="2">2. Second Section</h2>
+
+      <h3 id="2.a">a) a subsection</h3>
 
       <p>
         Vivamus lacinia viverra feugiat.
@@ -55,25 +95,13 @@
         Nam condimentum posuere risus, non rhoncus libero pulvinar vitae.
       </p>
 
-      <img src="images/abstract.png" width="500px">
-
       <p>
-        Sed vulputate ullamcorper ipsum, et ultrices mauris vulputate id.
-        Nulla facilisi.
-        Duis sed nisi egestas lectus lacinia sollicitudin ut a ligula.
-        Duis consequat scelerisque lorem, sed mollis nisl aliquam eu.
-        Pellentesque mollis consequat tellus, ut fermentum velit elementum varius.
-        Curabitur sit amet lectus a mi ornare bibendum.
-        Etiam augue velit, pretium quis egestas id, congue at purus.
-        Curabitur placerat vestibulum aliquam.
-        Proin tempus, libero dignissim convallis rhoncus, ante urna faucibus magna, in rhoncus lorem odio quis leo.
-        Phasellus euismod laoreet congue.
-        Nulla id felis at ligula mattis accumsan ac nec nibh.
-        Cras maximus eget velit eget semper.
-        Integer at nibh eu mauris iaculis porta et et purus.
-        Ut augue sem, placerat ac ornare vel, convallis at erat.
-        Nulla scelerisque vitae lorem ac pretium.
+        <a href="images/abstract.png">
+          <img src="images/abstract.png" width="500px">
+        </a>
       </p>
+
+      <h3 id="2.b">b) another subsection</h3>
 
       Entitiy References:
       <ul>
@@ -101,6 +129,13 @@
         Donec tellus elit, dapibus sit amet arcu id, molestie consectetur massa.
         Praesent quis suscipit mi, eget faucibus libero.
       </p>
+
+      <h3 id="2.c">c) a final subsection</h3>
+
+      <ol>
+          <li><em>emphasis</em></li>
+          <li><strong>strong</strong></li>
+      </ol>
 
       <p>
         In auctor enim at gravida scelerisque.
