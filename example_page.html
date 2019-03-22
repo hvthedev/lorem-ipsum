@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-  <html lang="en-US">
-    <head>
-      <meta charset="utf-8">
-      <title>Example Page</title>
-      <meta name="author" content="Harrison Van Til">
-      <meta name="description" content="Another random page.">
-      <link rel="shortcut icon" href="images/favicon.png" type="image/png">
-    </head>
-
-    <body>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Lorem Ipsum</title>
+    <meta name="author" content="Harrison Van Til">
+    <meta name="description" content="Another random page.">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <h1>Lorem Ipsum Site</h1>
+    </header>
+    <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li>Example Page</li>
+        <li><a href="example_page.html">Example Page</a></li>
       </ul>
-      <h1>Example Page</h1>
-      <p>This is an example page.</p>
-      <h2>Contact Info</h2>
-      <p>
-        <a href="mailto:one@example.com">one email recipient</a>
-      </p>
-      <p>
-        <a href="mailto:one@example.com; two@example.com">two email recipients</a>
-      </p>
-      <p>
-          <a href="mailto:one@example.com?subject=Example Email">email with subject</a>
-        </p>
-    </body>
-  </html>
+      <form>
+        <input type="search" name="q" placeholder="Search query">
+        <input type="submit" value="Go!">
+      </form>
+    </nav>
+    <main>
+      <aside>
+        <h3>Page Contents</h3>
+        <ol>
+          <li><a href="#content">Some Content</a></li>
+          <li><a href="#contact">Contact Info</a></li>
+        </ol> 
+      </aside>
+      <article>
+        <h2>Example Page</h2>
+        <section>
+          <h3 id=content>Some Content</h3>
+          <p>This is an example page.</p>
+        </section>
+        <section>
+          <h3 id="contact">Contact Info</h3>
+          <ul>
+            <li><a href="mailto:one@example.com">one email recipient</a></li>
+            <li><a href="mailto:one@example.com; two@example.com">two email recipients</a></li>
+            <li><a href="mailto:one@example.com?subject=Example Email">email with subject</a></li>
+          </ul>
+        </section> 
+      </article>
+    </main>
+    <footer>
+      <address>
+        Page written by <a href="mailto:harrison@vantil.com">Harrison Van Til</a>, <time datetime="2019-03-22">March 22, 2019</time>.
+      </address>
+    </footer>  
+  </body>
+</html>
