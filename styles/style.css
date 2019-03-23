@@ -1,36 +1,135 @@
 /* This is a comment */
 
-h1 {
-  background-color: yellow;
-  border: 4px dashed black;
-  border-radius: 30px;
-  padding: 10px;
-}
-
-body {
-  width: 80%;
-  margin: 5%;
-}
-
-p {
-  margin: 2%;
-  background-color: pink;
-  padding: 5px;
-  border-radius: 10px;
-}
-
 img {
   width: 500px;
-  margin-left: 5%;
-  background-color: lightgreen;
-  padding: 20px;
-  border-radius: 30px;
-  border: 2px solid black;
 }
 
-ul {
-  margin-left: 2%;
+.code {
+  background-color: pink;
+}
+
+#contact, #s1, #s2-c {
+  background-color: lightgreen;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+}
+
+[href^=http]::after {
+  content: '⤴';
+}
+
+li:nth-of-type(even) {
+  background-color: #ccc;
+}
+
+li:nth-of-type(odd) {
+  background-color: #eee;
+}
+
+li[lang="en-GB"] {
+  background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/en-GB.png") 5px center no-repeat;
+}
+
+li[lang="de"] {
+  background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/de.png") 5px center no-repeat;
+}
+
+li[lang="es"] {
+  background: url("http://mdn.github.io/learning-area/css/introduction-to-css/css-selectors/es.png") 5px center no-repeat;
+}
+
+li[data-perf^=inc] {
+  background-color: rgba(0,255,0,0.7);
+}
+
+li[data-perf^=same] {
+  background-color: rgba(0,0,255,0.5);
+}
+
+li[data-perf^=dec] {
+  background-color: rgba(255,0,0,0.7);
+}
+
+li[data-perf$=pro] {
+  font-weight: bold;
+}
+
+li[data-perf$=rel] {
+  font-style: italic;
+  color: #666;
+}
+
+li[lang] {
+  padding: 3px 3px 3px 34px;
+  margin-bottom: 5px;
+  list-style-position: inside;
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: darkred;
+  text-decoration: none;
+}
+
+table {
+  font: 1em sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table td, table th {
+  border: 1px solid black;
+  padding: 0.5em 0.5em 0.4em;
+}
+
+table thead th {
+  color: white;
+  background: black;
+}
+
+
+table tbody td + td {
+  text-align: center;
+}
+
+table tbody td:last-child {
+  text-align: right;
+}
+
+table tfoot th {
+  text-align: right;
+  border-top-width: 5px;
+  border-left: none;
+  border-bottom: none;
+}
+
+table th + td {
+  text-align: right;
+  border-top-width: 5px;
+  color: white;
+  background: black;
+}
+
+.with-currency[lang="en-US"] td:last-child::before {
+  content: '$';
+}
+
+.with-currency[lang="fr"] td:last-child::after {
+  content: ' €';
+}
+
+nav > ul {
   background-color: lightblue;
-  border-radius: 10px;
-  border: 2px dotted black;
 }
