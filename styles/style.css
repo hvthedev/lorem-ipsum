@@ -1,3 +1,36 @@
+/* This is a comment */
+
+h1 {
+  background-color: yellow;
+  border: 4px dashed black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+body {
+  width: 80%;
+  margin: 5%;
+}
+
+p {
+  margin: 2%;
+  background-color: pink;
+  padding: 5px;
+  border-radius: 10px;
+}
+
 img {
   width: 500px;
+  margin-left: 5%;
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+ul {
+  margin-left: 2%;
+  background-color: lightblue;
+  border-radius: 10px;
+  border: 2px dotted black;
 }
